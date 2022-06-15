@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B82B13628531FC800C50CFF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82B13528531FC800C50CFF /* Extension.swift */; };
+		9B9CD20C2851B71C00FFE96A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9CD20B2851B71C00FFE96A /* AppDelegate.swift */; };
+		9B9CD20E2851B71C00FFE96A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9CD20D2851B71C00FFE96A /* SceneDelegate.swift */; };
+		9B9CD2102851B71C00FFE96A /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9CD20F2851B71C00FFE96A /* PhoneViewController.swift */; };
+		9B9CD2132851B71C00FFE96A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9CD2112851B71C00FFE96A /* Main.storyboard */; };
+		9B9CD2162851B71C00FFE96A /* Wido.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B9CD2142851B71C00FFE96A /* Wido.xcdatamodeld */; };
+		9B9CD2182851B71D00FFE96A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9CD2172851B71D00FFE96A /* Assets.xcassets */; };
+		9B9CD21B2851B71D00FFE96A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9CD2192851B71D00FFE96A /* LaunchScreen.storyboard */; };
+		9BB57E952858A78C00EEF7C3 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB57E942858A78C00EEF7C3 /* CheckBox.swift */; };
+		9BCC54062852099C00C26C79 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC54052852099C00C26C79 /* GoogleService-Info.plist */; };
+		9BCC54082852141400C26C79 /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC54072852141400C26C79 /* OtpViewController.swift */; };
+		9BCC540A285215DD00C26C79 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC5409285215DD00C26C79 /* RegisterViewController.swift */; };
+		9BD89C7D285870DF003A4C7D /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD89C7C285870DF003A4C7D /* MyTableViewCell.swift */; };
+		9BD89C7F28587AA2003A4C7D /* cabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD89C7E28587AA2003A4C7D /* cabData.swift */; };
+		FC1F834E745C5D3CD2E88A41 /* Pods_Wido.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBA6969A32F8CFB1B35C170 /* Pods_Wido.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0690A573C547EF018636664E /* Pods-Wido.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wido.release.xcconfig"; path = "Target Support Files/Pods-Wido/Pods-Wido.release.xcconfig"; sourceTree = "<group>"; };
+		6EBA6969A32F8CFB1B35C170 /* Pods_Wido.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wido.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		807449583A0ABB23D515372B /* Pods-Wido.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wido.debug.xcconfig"; path = "Target Support Files/Pods-Wido/Pods-Wido.debug.xcconfig"; sourceTree = "<group>"; };
+		9B82B13528531FC800C50CFF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9B9CD2082851B71C00FFE96A /* Wido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wido.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9CD20B2851B71C00FFE96A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B9CD20D2851B71C00FFE96A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B9CD20F2851B71C00FFE96A /* PhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		9B9CD2122851B71C00FFE96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B9CD2152851B71C00FFE96A /* Wido.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wido.xcdatamodel; sourceTree = "<group>"; };
+		9B9CD2172851B71D00FFE96A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B9CD21A2851B71D00FFE96A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B9CD21C2851B71D00FFE96A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BB57E942858A78C00EEF7C3 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		9BCC54052852099C00C26C79 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BCC54072852141400C26C79 /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		9BCC5409285215DD00C26C79 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9BD89C7C285870DF003A4C7D /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		9BD89C7E28587AA2003A4C7D /* cabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cabData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B9CD2052851B71C00FFE96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1F834E745C5D3CD2E88A41 /* Pods_Wido.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B362B42D0462938419999F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				807449583A0ABB23D515372B /* Pods-Wido.debug.xcconfig */,
+				0690A573C547EF018636664E /* Pods-Wido.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B9CD1FF2851B71C00FFE96A = {
+			isa = PBXGroup;
+			children = (
+				9B9CD20A2851B71C00FFE96A /* Wido */,
+				9B9CD2092851B71C00FFE96A /* Products */,
+				9B362B42D0462938419999F5 /* Pods */,
+				FDF50063BAE8E5EF1CF54A08 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B9CD2092851B71C00FFE96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B9CD2082851B71C00FFE96A /* Wido.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B9CD20A2851B71C00FFE96A /* Wido */ = {
+			isa = PBXGroup;
+			children = (
+				9B9CD20B2851B71C00FFE96A /* AppDelegate.swift */,
+				9B9CD20D2851B71C00FFE96A /* SceneDelegate.swift */,
+				9BCC54042852080A00C26C79 /* Controllers */,
+				9B9CD2112851B71C00FFE96A /* Main.storyboard */,
+				9B9CD2172851B71D00FFE96A /* Assets.xcassets */,
+				9B9CD2192851B71D00FFE96A /* LaunchScreen.storyboard */,
+				9B9CD21C2851B71D00FFE96A /* Info.plist */,
+				9BCC54052852099C00C26C79 /* GoogleService-Info.plist */,
+				9B9CD2142851B71C00FFE96A /* Wido.xcdatamodeld */,
+			);
+			path = Wido;
+			sourceTree = "<group>";
+		};
+		9BCC54042852080A00C26C79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9B9CD20F2851B71C00FFE96A /* PhoneViewController.swift */,
+				9BCC54072852141400C26C79 /* OtpViewController.swift */,
+				9BCC5409285215DD00C26C79 /* RegisterViewController.swift */,
+				9B82B13528531FC800C50CFF /* Extension.swift */,
+				9BD89C7C285870DF003A4C7D /* MyTableViewCell.swift */,
+				9BD89C7E28587AA2003A4C7D /* cabData.swift */,
+				9BB57E942858A78C00EEF7C3 /* CheckBox.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FDF50063BAE8E5EF1CF54A08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EBA6969A32F8CFB1B35C170 /* Pods_Wido.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B9CD2072851B71C00FFE96A /* Wido */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9CD21F2851B71D00FFE96A /* Build configuration list for PBXNativeTarget "Wido" */;
+			buildPhases = (
+				F376D749616298BD1F33DC2F /* [CP] Check Pods Manifest.lock */,
+				9B9CD2042851B71C00FFE96A /* Sources */,
+				9B9CD2052851B71C00FFE96A /* Frameworks */,
+				9B9CD2062851B71C00FFE96A /* Resources */,
+				2F2960CB4CB4BFC2EE8DCF31 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wido;
+			productName = Wido;
+			productReference = 9B9CD2082851B71C00FFE96A /* Wido.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B9CD2002851B71C00FFE96A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					9B9CD2072851B71C00FFE96A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B9CD2032851B71C00FFE96A /* Build configuration list for PBXProject "Wido" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B9CD1FF2851B71C00FFE96A;
+			productRefGroup = 9B9CD2092851B71C00FFE96A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B9CD2072851B71C00FFE96A /* Wido */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B9CD2062851B71C00FFE96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9CD21B2851B71D00FFE96A /* LaunchScreen.storyboard in Resources */,
+				9BCC54062852099C00C26C79 /* GoogleService-Info.plist in Resources */,
+				9B9CD2182851B71D00FFE96A /* Assets.xcassets in Resources */,
+				9B9CD2132851B71C00FFE96A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2960CB4CB4BFC2EE8DCF31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wido/Pods-Wido-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wido/Pods-Wido-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wido/Pods-Wido-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F376D749616298BD1F33DC2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wido-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B9CD2042851B71C00FFE96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC54082852141400C26C79 /* OtpViewController.swift in Sources */,
+				9BD89C7D285870DF003A4C7D /* MyTableViewCell.swift in Sources */,
+				9B9CD2162851B71C00FFE96A /* Wido.xcdatamodeld in Sources */,
+				9B82B13628531FC800C50CFF /* Extension.swift in Sources */,
+				9BB57E952858A78C00EEF7C3 /* CheckBox.swift in Sources */,
+				9B9CD2102851B71C00FFE96A /* PhoneViewController.swift in Sources */,
+				9BD89C7F28587AA2003A4C7D /* cabData.swift in Sources */,
+				9BCC540A285215DD00C26C79 /* RegisterViewController.swift in Sources */,
+				9B9CD20C2851B71C00FFE96A /* AppDelegate.swift in Sources */,
+				9B9CD20E2851B71C00FFE96A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B9CD2112851B71C00FFE96A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9CD2122851B71C00FFE96A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B9CD2192851B71D00FFE96A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9CD21A2851B71D00FFE96A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B9CD21D2851B71D00FFE96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B9CD21E2851B71D00FFE96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B9CD2202851B71D00FFE96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807449583A0ABB23D515372B /* Pods-Wido.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y65595PJV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wido/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anitha.Wido;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B9CD2212851B71D00FFE96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0690A573C547EF018636664E /* Pods-Wido.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y65595PJV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wido/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anitha.Wido;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B9CD2032851B71C00FFE96A /* Build configuration list for PBXProject "Wido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9CD21D2851B71D00FFE96A /* Debug */,
+				9B9CD21E2851B71D00FFE96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9CD21F2851B71D00FFE96A /* Build configuration list for PBXNativeTarget "Wido" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9CD2202851B71D00FFE96A /* Debug */,
+				9B9CD2212851B71D00FFE96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B9CD2142851B71C00FFE96A /* Wido.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B9CD2152851B71C00FFE96A /* Wido.xcdatamodel */,
+			);
+			currentVersion = 9B9CD2152851B71C00FFE96A /* Wido.xcdatamodel */;
+			path = Wido.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B9CD2002851B71C00FFE96A /* Project object */;
+}
